@@ -1,0 +1,32 @@
+.flexbox
+{
+  display: flex;
+ flex-direction: row;
+  height: 50px;
+}
+.item1
+{
+  
+  background-color: lightpink;
+  width: 100px;
+
+
+}
+
+.item2
+{
+  background-color: lightblue;
+  width: 200px;
+ 
+}
+.teks
+{
+  color: white;
+  background-color: black;
+}
+.row2
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}

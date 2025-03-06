@@ -1,0 +1,74 @@
+p{
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+
+.konten
+{
+  width: 280px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1.5px;
+  
+}
+
+.flexbox
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.akun
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  
+}
+.profil
+{
+  margin-top: 0px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+}
+.pp
+{
+  margin-right: 10px;
+  margin-left: 5px;
+}
+.nama
+{
+  margin-bottom: 0px;
+  font-weight: bold;
+  
+}
+.caption
+{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: grey;
+}
+.follow
+{
+  background-color: rgb(5, 132, 252);
+  color: white;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-right: 10px;
+}

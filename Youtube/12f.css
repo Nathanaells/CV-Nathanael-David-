@@ -1,0 +1,51 @@
+.flexbox
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(157, 56, 157);
+  height: 35px;
+}
+.kiri
+{
+  color: white;
+  margin-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+.searchbox
+{
+  width: 300px;
+  border-radius: 15px;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  font-size: 10px;
+}
+
+.button
+{
+  background-color:  rgb(157, 56, 157);
+  margin-right: 5px;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+.button:hover
+{
+   background-color: white;
+   color: rgb(157, 56, 157);
+}

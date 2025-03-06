@@ -1,0 +1,73 @@
+div
+{
+font-family: arial;
+font-size: 15px;
+}
+.container
+{
+  width: 400px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(217, 212, 212);
+  box-s1hadow: 1px -1px 3px rgba(0, 0, 0, 0.15);
+  
+}
+
+.allinbox
+{
+
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 10px;
+  color: grey;
+}
+.chatbox
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.image
+{
+  width: 55px;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+.profile
+{
+  width: 100%;
+  border-radius: 25px;
+}
+.kotaknama
+{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  
+}
+.nama
+{
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.time
+{
+margin-right: 10px;
+color: grey;
+}
+.chat
+{
+  width: 500px;
+}
+.header
+{
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.isi
+{
+  color: grey;
+}
+
+
